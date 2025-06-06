@@ -20,7 +20,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "preinstall": "icacls node_modules\\.bin\\* /grant Everyone:(RX)",
+    "preinstall": "node -e \"require('fs').chmodSync('node_modules/.bin/react-scripts', '755')\"",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
