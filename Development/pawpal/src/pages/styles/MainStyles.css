@@ -724,3 +724,103 @@ nav button:hover {
   .walkButton:hover {
     background-color: #45a049;
   }
+
+  @media (max-width: 768px) {
+  .mainPageContainer {
+    padding: 10px;
+  }
+
+  .scrollContainer {
+    padding: 10px 0;
+  }
+
+  .petsRow {
+    gap: 12px;
+    padding: 0 10px;
+  }
+
+  .petCard {
+    flex: 0 0 240px;
+    padding: 12px;
+    margin: 0 5px;
+  }
+
+  .petImageContainer {
+    height: 140px;
+  }
+
+  .petName {
+    font-size: 16px;
+  }
+
+  .petDetail,
+  .petCity {
+    font-size: 13px;
+  }
+
+  .walkButton {
+    padding: 8px 12px;
+    font-size: 13px;
+  }
+
+  .navigationButtons {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .navButton {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .newsSection {
+    padding: 10px;
+  }
+
+  .sectionTitle {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .newsItem {
+    padding: 10px;
+  }
+
+  .newsTitle {
+    font-size: 16px;
+  }
+
+  .newsDate,
+  .newsDescription {
+    font-size: 13px;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .logo img {
+    width: 50%;
+  }
+
+  .logo span {
+    font-size: 24px;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  nav a,
+  nav button {
+    font-size: 16px;
+    width: 100%;
+    text-align: left;
+  }
+}
